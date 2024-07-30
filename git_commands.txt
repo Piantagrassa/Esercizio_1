@@ -1,0 +1,10 @@
+
+Comandi Git per Committare le modifiche
+
+1 ->  git branch -c "mio_sito" ---> ti crei un branch su cui lavorare a parte
+2 -> git branch --> Vedi la lista dei Branch disponibili, dovresti vederne due
+3 -> git checkout mio_sito --> Ti sposti sul tuo branch, cosi le modifiche che fai le fai sul tuo branch e non su quello principale
+** FAI LE MODIFICHE SUI FILE **
+4 -> git add . --> Per accettare tutte le modifiche che hai fatto
+5 -> git commit -m "Commento" --> Per aggiungere un commento alle modifiche che hai fatto
+6 -> git push origin HEAD --> Fai il push delle modifiche, le dovresti vedere su sito di GitHub
